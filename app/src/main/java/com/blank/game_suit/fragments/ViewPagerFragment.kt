@@ -39,7 +39,6 @@ class ViewPagerFragment(private val fragContainer: Int) : Fragment(R.layout.frag
                 if (mPager.currentItem == 0) {
                     // If the user is currently looking at the first step, allow the system to handle the
                     // Back button. This calls finish() on this activity and pops the back stack.
-
                 } else {
                     // Otherwise, select the previous step.
                     mPager.currentItem = mPager.currentItem - 1
